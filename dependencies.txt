@@ -1,0 +1,4 @@
+qiskit
+qiskit_aer
+qiskit_ibm_runtime
+matplotlib
