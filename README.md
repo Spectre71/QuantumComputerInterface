@@ -16,3 +16,4 @@ pip install dependencies.txt
 
 ## Tips
 - The app is well documented, so you can read about functionality inside the script for convenience!
+- `QC.py` allows you to play around and visualize different wavefunction representations via Bloch spheres, show the difference between classical bit and qubit, represent how normal bits only make up a single state whereas qubits can represent $2^n$ possibilites, where n is the number of qubits. It also let's you visualize Grover's and Shor's algorithms!
