@@ -99,7 +99,7 @@ print(f"counts for parameterized circuit : {job_result[0].data.meas.get_counts()
 
 # Connect to IBM Quantum
 
-provider = QiskitRuntimeService(channel='ibm_quantum', token="5bcd20020fe6a831e46ccacdf647fd9775afa5f42e51fbbc155c7b0578a4c935c27f3110e7e4f58a1c1e69d2db2c20ad24872712dee61b5b310bee26b3380c0e")
+provider = QiskitRuntimeService(channel='ibm_quantum', token="your_token(API)") # This is obtained from IBM's official website upon accounnt creation - FREE
 print(provider.backends())  # List all available backends
 
 # Select backend and verify configuration
