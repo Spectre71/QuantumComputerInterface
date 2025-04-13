@@ -8,7 +8,7 @@ pip install qiskit qiskit-aer qiskit-ibm-runtime matplotlib
 ```
 or, naturally:
 ```python
-pip install dependencies.txt
+pip install -r .\dependencies.txt
 ```
 ## Setup
 - Tweak hamiltonian values to influence the affinities for different states.
